@@ -1,0 +1,25 @@
+:root {
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secundary-color: #f7c321;
+    --text-color: black;
+    --text-color-inverse: white;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3a4460;
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
