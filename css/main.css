@@ -11,6 +11,7 @@
 body {
     font-family: 'Monserrat', sans-serif;
     color: var(--text-color);
+    padding-top: 90px;
 }
 
 a {
@@ -22,4 +23,24 @@ a {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+    .horizontal-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
